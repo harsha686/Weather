@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    padding: 17%;
+}
+
+.box{
+    width: 440px;
+    height: 300px;
+    padding:50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    position:relative;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+    z-index: 1;
+}
+
+#form {
+    margin-bottom: 20px;
+}
+
+#cityinput {
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    background-color: #f0f0f0;
+
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 20px;
+}
+
+#result {
+    display: none;
+    margin-top: 20px;
+}
+body::before {    
+    content: "";
+    background: url(https://static.vecteezy.com/system/resources/previews/028/664/428/large_2x/ai-ai-generated-breathtakingrealistic-4k-image-of-a-beautiful-sky-filled-with-fluffy-cumulus-clouds-a-serene-and-heavenly-natural-landscape-free-photo.jpg);
+    background-size:100% 780px;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    filter: blur(5px);
+}
+h1
+{
+    color: black;
+    margin-top: -10px;
+    margin-bottom: 50px;
+    font-size:50px;
+    text-align: center;
+}
